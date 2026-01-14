@@ -1,0 +1,19 @@
+{
+  "name": "tiktok-mc-bridge-server",
+  "version": "1.0.0",
+  "description": "Server side for TikTok MC Bridge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mineflayer": "^4.20.1",
+    "socket.io": "^4.7.2",
+    "tiktok-live-connector": "^1.1.0",
+    "https-proxy-agent": "^7.0.0"
+  }
+}
